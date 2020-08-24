@@ -41,7 +41,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     /// 冒泡排序
     func bubbleSort() {
-        
+        var ary = [5, 8, 6, 100, 16, 2, 10, 15, 20, 3, 11, 1000, 96, 12]
+        ary.bubbleSort()
+        debugPrint("\n BubbleSorted ary = \(ary) \n")
     }
 
 }
