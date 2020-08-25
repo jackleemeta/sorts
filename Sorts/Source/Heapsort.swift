@@ -6,7 +6,7 @@
 //  Copyright © 2020 jacklee. All rights reserved.
 //
 
-/// 堆排序
+/// 选择排序 - 堆排序
 extension Array where Element == Int {
     
     /// Heapsort

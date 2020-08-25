@@ -6,7 +6,7 @@
 //  Copyright © 2020 jacklee. All rights reserved.
 //
 
-/// 简单选择排序
+/// 选择排序 - 简单选择排序
 extension Array where Element == Int {
     
     mutating func selectSort() {
