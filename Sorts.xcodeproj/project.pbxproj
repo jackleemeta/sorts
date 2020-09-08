@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C532AF4824FE40BB006AD5C0 /* MergeSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = C532AF4724FE40BB006AD5C0 /* MergeSort.swift */; };
 		C573BC1724F64BE400B9E181 /* QuickSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = C573BC1624F64BE400B9E181 /* QuickSort.swift */; };
 		C5B5AB4724F3644500DC0DA5 /* BubbleSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B5AB4624F3644500DC0DA5 /* BubbleSort.swift */; };
 		C5B5AB4924F3953700DC0DA5 /* InsertionSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B5AB4824F3953700DC0DA5 /* InsertionSort.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C532AF4724FE40BB006AD5C0 /* MergeSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeSort.swift; sourceTree = "<group>"; };
 		C573BC1624F64BE400B9E181 /* QuickSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickSort.swift; sourceTree = "<group>"; };
 		C5B5AB4624F3644500DC0DA5 /* BubbleSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleSort.swift; sourceTree = "<group>"; };
 		C5B5AB4824F3953700DC0DA5 /* InsertionSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertionSort.swift; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 				C5FCA98F24EE571200DEDC84 /* Heapsort.swift */,
 				C5B5AB4A24F39DBC00DC0DA5 /* ShellSort.swift */,
 				C573BC1624F64BE400B9E181 /* QuickSort.swift */,
+				C532AF4724FE40BB006AD5C0 /* MergeSort.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -159,6 +162,7 @@
 				C5B5AB4924F3953700DC0DA5 /* InsertionSort.swift in Sources */,
 				C5B5AB4B24F39DBC00DC0DA5 /* ShellSort.swift in Sources */,
 				C5FCA99224EE6B9900DEDC84 /* SelectSort.swift in Sources */,
+				C532AF4824FE40BB006AD5C0 /* MergeSort.swift in Sources */,
 				C5FCA99024EE571200DEDC84 /* Heapsort.swift in Sources */,
 				C573BC1724F64BE400B9E181 /* QuickSort.swift in Sources */,
 			);

@@ -31,6 +31,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // 交换排序 - 快速排序
         quickSort()
         
+        // 归并排序 - 2路归并
+        mergeSort()
+        
         return true
     }
     
@@ -74,6 +77,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         var ary = [5, 8, 6, 100, 16, 2, 10, 15, 20, 3, 11, 1000, 96, 12]
         ary.quickSort()
         debugPrint("\n quickSorted ary     = \(ary) \n")
+    }
+    
+    /// 归并排序  - 2路归并
+    func mergeSort() {
+        var ary = [5, 8, 6, 100, 16, 2, 10, 15, 20, 3, 11, 1000, 96, 12]
+        ary.mergeSort()
+        debugPrint("\n mergeSorted ary     = \(ary) \n")
     }
 
 }
